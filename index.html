@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Julius Caesar' sCryptography</title>
+    </head>
+    <body>
+        <header>
+           <h2>Julius Caesar's Cryptography</h2>
+        </header>
+
+        <p class="github">joão junior @ github.com/jjunieko</p>
+
+        <h3>Um JavaScript simples que executa a criptografia e descriptografia de Julius Caesar nos textos desejados.</h3>
+
+        <main>
+            <section class="encryption">
+                <form id="formEncryptionRate">
+                    <label for="encryptionRate">Escolha a taxa de criptografia.</label><br>
+                    <input type="text" name="encryptionRate" class="encryptionRate">
+                    <p>Se nulo, o padrão 3 será definido</p>
+                </form>
+            </section>
+
+            <section class="encrypt">
+              <table>
+                 <thead>
+                    <th>Encryption History</th>
+                 </thead>
+                 <tbody class="tbodyEncrypt">
+                 </tbody>
+              </table>
+
+              <form id="formEncrypt">
+                 <textarea id="textEncrypt" name="name" rows="10" cols="80"></textarea>
+                 <button type="submit" name="button" id="btnEncrypt">Criptografar</button>
+              </form>
+            </section>
+
+            <section class="decrypt">
+              <table>
+                 <thead>
+                    <th>Histórico de descriptografia</th>
+                 </thead>
+                 <tbody class="tbodyDecrypt">
+                 </tbody>
+              </table>
+
+              <form id="formDecrypt">
+                 <textarea id="textDecrypt" name="name" rows="10" cols="80"></textarea>
+                 <button type="submit" name="button" id="btnDecrypt">Descriptografar</button>
+              </form>
+            </section>
+             <section class="decrypt">
+              <table>
+                 <thead>
+                    <th>enviar o código</th>
+                 </thead>
+                 <tbody class="tbodyDecrypt">
+                 </tbody>
+              </table>
+
+              <form id="formDecrypt">
+                 <textarea id="textDecrypt" name="name" rows="10" cols="80"></textarea>
+                 <button type="submit" name="button" id="btnDecrypt"><a href="">Enviar</a></button>
+              </form>
+            </section>
+        </main>
+
+        <script src="js/action.js"></script>
+        <script src="js/form.js"></script>
+    </body>
+</html>
