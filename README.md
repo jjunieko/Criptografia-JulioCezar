@@ -1,8 +1,6 @@
-# Criptografia de Júlio César (Julius Caesar's Cryptography)
+Criptografia de Júlio César (Criptografia de Júlio César)
+Um JavaScript simples que executa a criptografia e descriptografia de Julius Caesar nos textos desejados. Verifique em codepen.io
 
-A simple JavaScript that performs Julius Caesar's encryption and decryption on the desired texts. Check it on [codepen.io](https://codepen.io/iagocalazans/full/RwwOPPm)
+Você pode tentar descriptografar isso (escolha a taxa de criptografia para seis):
 
-You can try to decrypt this (choose the encryption rate to six): 
-
-```
 “jollkxktz xugjy yuskzosky rkgj zu znk ygsk igyzrk.” — put ytuc
